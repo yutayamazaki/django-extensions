@@ -32,7 +32,7 @@ def get_tests_requires():
 
 
 setup(
-    name='drf-logger',
+    name='django-extensions',
     version=get_version(),
     url='https://github.com/yutayamazaki/django-extensions',
     author='Yuta Yamazaki',
