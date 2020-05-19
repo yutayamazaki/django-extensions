@@ -6,6 +6,16 @@
 pip install git+https://github.com/yutayamazaki/django-extensions
 ```
 
+If you use `requirements.txt`.
+
+```txt
+-e git://github.com/mozillayutayamazaki/django-extensions.git
+```
+
+When you need to use specific version, follow this page.
+
+https://stackoverflow.com/questions/16584552/how-to-state-in-requirements-txt-a-direct-github-source
+
 ## Usage
 
 ### Middllewares
