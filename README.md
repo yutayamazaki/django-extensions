@@ -9,7 +9,7 @@ pip install git+https://github.com/yutayamazaki/django-extensions
 If you use `requirements.txt`.
 
 ```txt
--e git://github.com/mozillayutayamazaki/django-extensions.git
+-e git://github.com/yutayamazaki/django-extensions.git
 ```
 
 When you need to use specific version, follow this page.
