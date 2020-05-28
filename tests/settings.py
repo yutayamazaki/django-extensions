@@ -1,10 +1,10 @@
-INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
-]
+SECRET_KEY = 'fake-key'
 
-SECRET_KEY = '^a_00a0+(%jaaaaa(___a*50aa0)lf*oy#rc4xz!2abcd_zu0a'
+ALLOWED_ADMIN_IP_LIST = ['xxx.xxx.xxx.xxx', 'xxx.xx.xx.xx']
+
+MIDDLEWARE = [
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+    'admin_ip_restrictor.middleware.AdminIPRestrictorMiddleware'
+]
