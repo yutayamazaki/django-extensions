@@ -32,14 +32,14 @@ def get_tests_requires():
 
 
 setup(
-    name='django-extensions',
+    name='django-extension-tools',
     version=get_version(),
     url='https://github.com/yutayamazaki/django-extensions',
     author='Yuta Yamazaki',
     author_email='yu.yamazakii@gmail.com',
     maintainer='Yuta Yamazaki',
     maintainer_email='yu.yamazakii@gmail.com',
-    description='',
+    description='Django extention tools.',
     long_description=get_long_description(),
     long_description_content_type='text/markdown',
     packages=find_packages(),
