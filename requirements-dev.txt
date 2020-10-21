@@ -1,7 +1,2 @@
-autopep8
-coverage
-flake8
-mypy
-pylint
-pytest
-pyyaml==5.3
+flake8==3.8.4
+mypy==0.790
